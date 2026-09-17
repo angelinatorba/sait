@@ -173,7 +173,6 @@ span {
     align-items: center;
     text-align: center;
     padding: 40px 10px;
-    border-top: 1px solid #eee;
     gap: 30px;
 }
 
@@ -194,6 +193,10 @@ span {
     font-size: 15px;
 }
 
+.about-us {
+    padding: 50px;
+    margin-bottom: 15px;
+}
 .fresh-vegetables {
     padding: 80px ;
     background: #ffffff;
@@ -275,6 +278,7 @@ span {
     font-size: 20px;
     color: #000000;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .dish-desc {
@@ -402,4 +406,464 @@ span {
     background: #4a9a36;
     transform: translateY(-3px) scale(1.03);
     box-shadow: 0 10px 35px rgba(95, 184, 72, 0.45);
+}
+
+
+
+@media (max-width: 1024px) {
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .header-flex {
+        gap: 15px;
+    }
+
+    .header-links {
+        gap: 15px;
+        font-size: 15px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+   
+    .button {
+        padding: 9px 18px;
+        font-size: 15px;
+    }
+
+
+    .main {
+        margin-top: 30px;
+        padding: 50px;
+    }
+
+    .main-flex {
+        gap: 30px;
+    }
+
+    .main-title {
+        font-size: 35px;
+        min-width: auto;
+    }
+
+    .main-description {
+        font-size: 15px;
+        margin-bottom: 35px;
+    }
+
+    .main-button {
+        font-size: 15px;
+        min-width: 100px;
+    }
+
+    .main-image img {
+        max-width: 400px;
+    }
+
+    .why-choose {
+        padding: 55px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .section-subtitle {
+        font-size: 15px;
+        margin-bottom: 35px;
+    }
+
+    .features {
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+
+    .feature-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .feature-icon img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .feature-item h3 {
+        font-size: 17px;
+    }
+
+    .feature-item p {
+        font-size: 13px;
+    }
+
+
+    .stats {
+        gap: 10px;
+        padding: 30px ;
+    }
+
+    .stat-number {
+        font-size: 30px;
+    }
+
+    .stat-item p {
+        font-size: 15px;
+    }
+
+    .about-us {
+    margin-bottom: 10px;
+    }
+    
+    .fresh-vegetables {
+        padding: 30px ;
+    }
+
+    .fresh-flex {
+        gap: 25px;
+    }
+
+    .fresh-content h2 {
+        font-size: 30px;
+    }
+
+    .fresh-content p {
+        font-size: 15px;
+        margin-bottom: 28px;
+    }
+
+    .fresh-image img {
+        max-width: 350px;
+    }
+
+
+    .special-dishes {
+        padding: 60px ;
+    }
+
+    .dishes-grid {
+        gap: 50px;
+    }
+
+    .dish-card {
+     padding: 0;
+    }
+
+    .dish-img-wrapper {
+        height: 300px;
+        width: 300px;
+    }
+
+    .dish-title {
+        font-size: 18px;
+    }
+
+    .dish-desc {
+        font-size: 14px;
+    }
+
+
+    .newsletter {
+        padding: 40px ;
+    }
+
+    .email-input {
+        width: 280px;
+        padding: 12px ;
+        font-size: 14px;
+    }
+
+    .btn-green {
+        padding: 13px;
+        font-size: 15px;
+        min-width: 170px;
+    }
+
+    .footer-content {
+        gap: 15px;
+    }
+
+    .footer-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .footer-text,
+    .footer-links li {
+        font-size: 14px;
+    }
+
+    .footer-bottom-bar {
+        padding: 22px ;
+        font-size: 15px;
+    }
+
+    .button2 {
+        padding: 13px 32px;
+        font-size: 15px;
+        min-width: 170px;
+    }
+}
+
+
+@media (max-width: 720px) {
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .header {
+        margin-top: 10px;
+    }
+
+    .header-flex {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .header-links {
+        gap: 20px;
+        font-size: 13px;
+    }
+
+    .cart {
+        gap: 8px;
+    }
+
+    .button {
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+
+    .main {
+        padding: 40px;
+    }
+
+    .main-flex {
+        gap: 20px;
+    }
+
+    .main-title {
+        font-size: 25px;
+    }
+
+    .main-description {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .main-button {
+        font-size: 14px;
+        padding: 12px 30px;
+        min-width: 160px;
+    }
+
+    .main-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-image img {
+        max-width: 300px;
+    }
+
+
+    .why-choose {
+        padding: 20px ;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .section-subtitle {
+        font-size: 15px;
+        margin-bottom: 35px;
+    }
+
+    .feature-item {
+        padding: 20px;
+    }
+
+    .feature-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .feature-icon img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .feature-item h3 {
+        font-size: 15px;
+    }
+
+    .feature-item p {
+        font-size: 13px;
+    }
+
+    .stats {
+        padding: 20px ;
+    }
+
+    .stat-item {
+        padding: 2px;
+    }
+
+    .stat-number {
+        font-size: 30px;
+    }
+
+    .stat-item p {
+        font-size: 14px;
+    }
+
+    .about-us {
+        padding: 30px;
+    }
+    
+    .about-us .main-title {
+        font-size: 25px;
+    }
+
+    .about-us .main-description {
+        font-size: 13px;
+    }
+
+    .fresh-vegetables {
+        padding: 30px;
+    }
+
+    .fresh-flex {
+        gap: 20px;
+
+    }
+
+    .fresh-content h2 {
+        font-size: 23px;
+    }
+
+    .fresh-content p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .fresh-image {
+        width:300px;
+    }
+
+    .fresh-image img {
+       width: 300px;
+    }
+
+
+    .special-dishes {
+        padding: 50px 0;
+    }
+
+    .dishes-grid {
+        justify-content: center;;
+        gap: 40px;
+        margin-bottom: 30px;
+    }
+
+    .dish-card {
+        width:200px;
+        padding: 12px;
+    }
+
+    .dish-img-wrapper {
+        width: 100%;
+        height: 160px;
+    }
+
+    .dish-img-wrapper img {
+        width: 100%;
+        height:100%;
+    }
+
+    .dish-title {
+        font-size: 17px;
+    }
+
+    .dish-desc {
+        font-size: 12px;
+    }
+
+    .cta-container {
+        padding: 0 ;
+    }
+
+    .button2 {
+        padding: 12px ;
+        font-size: 14px;
+        min-width: 160px;
+    }
+
+
+    .newsletter {
+        padding: 30px 15px;;
+    }
+
+    .newsletter-form {
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .email-input {
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    .btn-green {
+        padding: 12px ;
+        font-size: 14px;
+    }
+
+    .site-footer {
+        padding: 50px 0;
+    }
+
+    .footer-content {
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-col {
+        width: 200px;
+        text-align: center;
+    }
+
+    .footer-col-logo {
+        text-align: center;
+    }
+
+    .footer-title {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .footer-text,
+    .footer-links li {
+        font-size: 13px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-bottom-bar {
+        font-size: 15px;
+    }
 }
